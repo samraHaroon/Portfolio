@@ -334,7 +334,5 @@ For issues or questions:
 
 ---
 
-**Last Updated**: January 2024
-**Version**: 1.0.0
+**Last Updated**: March 2026
 
-Enjoy your new portfolio! 🚀

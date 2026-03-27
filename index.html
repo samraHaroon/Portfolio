@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | SAMRA HAROON</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">SH</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="navbar-icons">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                    <span class="theme-icon">🌙</span>
+                </button>
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                Hi, I'm <span class="typing-text">SAMRA HAROON</span>
+            </h1>
+            <p class="hero-role">Final Year B.Tech Student</p>
+            <p class="hero-intro">
+                Passionate Developer | Tech Enthusiast | Problem Solver
+            </p>
+            <p class="hero-description">
+               Aspiring developer passionate about problem-solving and creating impactful solutions. 
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="profile-img">
+                <img src="selfie.jpeg" alt="SAMRA HAROON" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Who Am I?</h3>
+                    <p>
+                     I’m a passionate final-year B.Tech student who loves turning ideas into functional applications. With a solid foundation in programming and web technologies, I focus on writing clean, efficient code and continuously improving my technical skills. I am actively seeking opportunities to contribute and grow as a developer.
+                    </p>
+                    <h3>Education</h3>
+                    <p>
+                        <strong>B.Tech in Computer Science and Engineering</strong><br>
+                        Currently in Final Year | CGPA: 8.01
+                    </p>
+                    <h3>My Interests</h3>
+                    <ul class="interests-list">
+                        <li>Coding</li>
+                        <li>Web Development</li>
+                        <li>Problem Solving</li>
+                        <li>Data Structures & Algorithms</li>
+                        <li>Learning New Technologies</li>
+                        <li>Machine Learning</li>
+                        <li>Competitive Programming</li>
+                    </ul>
+                </div>
+                <div class="about-goals">
+                    <h3>Career Goals</h3>
+                    <p>
+                        My goal is to secure a challenging position as a Software Engineer where I can leverage my technical 
+                        skills and creativity to develop innovative solutions. I aim to continuously learn and grow in a 
+                        dynamic tech environment.
+                    </p>
+                    <div class="download-resume">
+                        <a href="resume.pdf" class="btn btn-primary" download>
+                            📥 Download Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <!-- Frontend -->
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill">
+                        <div class="skill-header">
+                            <span class="skill-name">HTML5 & CSS3</span>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-header">
+                            <span class="skill-name">JavaScript</span>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill">
+                        <div class="skill-header">
+                            <span class="skill-name">Responsive Design</span>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backend -->
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                   <div class="skill">
+                        <div class="skill-header">
+                            <span class="skill-name">Java 8</span>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-header">
+                            <span class="skill-name">Python</span>
+                            <span class="skill-percent">60%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 60%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill">
+                        <div class="skill-header">
+                            <span class="skill-name">SQL</span>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Other -->
+                <div class="skill-category">
+                    <h3>Other</h3>
+                    <div class="skill">
+                        <div class="skill-header">
+                            <span class="skill-name">Git & GitHub</span>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    
+                  
+                    <div class="skill">
+                        <div class="skill-header">
+                            <span class="skill-name">Problem Solving</span>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250?text=Mood-Music+Web+App" alt="Mood-Music Web App">
+                        <div class="project-overlay">
+                            <a href="https://github.com/samraHaroon/Music-App" class="project-link">View Project →</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Mood-Music Web App</h3>
+                        <p class="project-description">
+                           This project is a Mood-Based Music Web Application that enhances the user experience by combining facial emotion recognition with music recommendation. The application uses the device camera to detect a user’s facial expression (such as happy, sad, or excited) and automatically plays music that matches the detected mood. Additionally, it features an integrated chatbot powered by the Gemini API, which responds to user queries related to music, making the platform more interactive and user-friendly.
+                        </p>
+                        <div class="tech-stack">
+                            <span class="tech-badge">HTML5</span>
+                            <span class="tech-badge">CSS3</span>
+                            <span class="tech-badge">JavaScript</span>
+                           <span class="tech-badge">Flask(Python)</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/samraHaroon" target="_blank" class="link-btn">GitHub</a>
+                            <a href="https://github.com/samraHaroon/Music-App" target="_blank" class="link-btn">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250?text=Student+Management+System" alt="Student Management System">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">View Project →</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Student management system</h3>
+                        <p class="project-description">
+                           This project is a Student Management System developed using Java, designed to efficiently manage student records. It allows users to perform operations such as adding, updating, deleting, and searching student details. The system utilizes core Java concepts like Object-Oriented Programming and collections to ensure structured data handling and scalability.
+                        </p>
+                        <div class="tech-stack">
+                            <span class="tech-badge">JavaScript</span>
+                            <span class="tech-badge">Java</span>
+                            <span class="tech-badge">SQL</span>
+                            <span class="tech-badge">HTML5</span>
+                            
+                            <span class="tech-badge">CSS3</span>
+                           
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com" target="_blank" class="link-btn">GitHub</a>
+                            <a href="#" target="_blank" class="link-btn">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Internship Experience </h2>
+            <div class="experience-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Packaged App Development Intern</h3>
+                        <p class="company-name">Accenture Solutions Private Ltd., Bangalore | May 2025 - July 2025</p>
+                        <p class="experience-description">
+                          During my internship, I worked on building an automation solution using Microsoft Power Automate to improve workflow efficiency within an organization. I integrated services like Microsoft Teams, Outlook, and Excel to create a seamless system for task automation, communication, and data management. This solution minimized repetitive manual work, reduced errors, and enhanced productivity, demonstrating the practical impact of automation in real-world scenarios.
+                        </p>
+                    </div>
+                </div>
+
+              
+
+              
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications & Achievements</h2>
+            <div class="certifications-grid">
+                <div class="cert-card">
+                    <div class="cert-icon">🏆</div>
+                    <h3>Data Structures and Algorithms using Java</h3>
+                    <p class="cert-issuer">NPTEL</p>
+                    <p class="cert-date">2025</p>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon">🎓</div>
+                    <h3>Python for Data Science</h3>
+                    <p class="cert-issuer">NPTEL</p>
+                    <p class="cert-date">2025</p>
+                </div>
+
+               
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">I'd love to hear from you! Feel free to reach out.</p>
+            
+            <div class="contact-content">
+                <form class="contact-form" id="contactForm" >
+                   
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                        <span class="error-message" id="nameError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required>
+                        <span class="error-message" id="emailError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <span class="error-message" id="messageError"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon">📧</div>
+                        <h4>Email</h4>
+                        <p><a href="mailto:hsamra321@gmail.com">hsamra321@gmail.com</a></p>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">💼</div>
+                        <h4>LinkedIn</h4>
+                        <p><a href="https://www.linkedin.com/in/samra-haroon/" target="_blank">linkedin.com/in/samra-haroon</a></p>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">💻</div>
+                        <h4>GitHub</h4>
+                        <p><a href="https://github.com/samraHaroon" target="_blank">github.com/samraHaroon</a></p>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">📱</div>
+                        <h4>Phone</h4>
+                        <p><a href="tel:+918294540213">+91 8294540213</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Samra Haroon. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://github.com/samraHaroon" target="_blank" aria-label="GitHub">GitHub</a>
+                    <a href="https://linkedin.com/in/samra-haroon" target="_blank" aria-label="LinkedIn">LinkedIn</a>
+                    <a href="mailto:hsamra321@gmail.com" aria-label="Email">Email</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
